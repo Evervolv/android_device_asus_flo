@@ -113,7 +113,8 @@ PRODUCT_PACKAGES += \
 
 # GNSS HAL
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@1.0-impl.legacy
+    android.hardware.gnss@1.0-impl.legacy \
+    android.hardware.gnss@1.0-service
     
 # Filesystem tools
 PRODUCT_PACKAGES += \
