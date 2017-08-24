@@ -62,6 +62,10 @@ PRODUCT_PACKAGES += \
     libbt-vendor \
     android.hardware.bluetooth@1.0-impl
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    qcom.bluetooth.soc=pronto \
+    vendor.qcom.bluetooth.soc=pronto
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1200
