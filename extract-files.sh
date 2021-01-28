@@ -18,8 +18,8 @@
 set -e
 
 VENDOR=asus
-DEVICE_COMMON=flox
-DEVICE=${DEVICE:-flox}
+DEVICE_COMMON=flo
+DEVICE=${DEVICE:-flo}
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
