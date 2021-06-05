@@ -128,7 +128,6 @@ TARGET_CUSTOM_DISPLAY_TUNING := true
 TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 
 USE_DEVICE_SPECIFIC_QCOM_PROPRIETARY := true
-OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 HAVE_ADRENO_SOURCE:= false
 
@@ -154,4 +153,4 @@ TARGET_RECOVERY_DENSITY := hdpi
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
--include vendor/asus/flo/BoardConfigVendor.mk
+include vendor/asus/flo/BoardConfigVendor.mk
